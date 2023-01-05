@@ -4,6 +4,8 @@ The course features basic knowledge of web technologies and more specifically fa
 
 # Course Overview
 
+<div id="top"></div>
+
 - <a href="#intro">Introduction to HTML & CSS</a>
 - <a href="#html-structure">HTML Structure</a>
 - <a href="#css-and-typo">CSS & Typography</a>
@@ -41,6 +43,8 @@ The course features basic knowledge of web technologies and more specifically fa
 - Width and Height
 - Padding, Margin and Border
 - Box Sizing
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## <p id="postiong-and-grid">Position & Grid</p>
 - CSS Grid
