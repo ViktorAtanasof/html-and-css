@@ -1,10 +1,10 @@
+<div id="top"></div>
+
 # HTML & CSS course
 
 The course features basic knowledge of web technologies and more specifically familiarization with **HTML5** and **CSS3**. Basic knowledge of **web development, web browsers, HTML/CSS/DOM development tools** are acquired and practical skills are developed using the **Web Content Description Language (HTML)** and the **Web Content Styling Language (CSS)**. Basic **HTML tags, paragraphs, lists, tables, forms, controls,** and **semantic HTML tags** are studied. Emphasizes basic **CSS selectors** and **styles,** working with **classes, presentation rules, positioning and layout rules in CSS**. The latest **HTML5** and **CSS3** standards are covered. The course offers hands-on **HTML** and **CSS** exercises that involve you in real-world **web page development** projects, implementing **site fragments,** and creating complete **modern websites** with a good look, modern structure, and mobile support.
 
 # Course Overview
-
-<div id="top"></div>
 
 - <a href="#intro">Introduction to HTML & CSS</a>
 - <a href="#html-structure">HTML Structure</a>
@@ -44,9 +44,7 @@ The course features basic knowledge of web technologies and more specifically fa
 - Padding, Margin and Border
 - Box Sizing
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## <p id="postiong-and-grid">Position & Grid</p>
+## <p id="position-and-grid">Position & Grid</p>
 - CSS Grid
 - Position: static, relative, absolute, fixed and sticky
 - Positioning Properties
@@ -63,3 +61,5 @@ The course features basic knowledge of web technologies and more specifically fa
 - Media Type
 - Media Feature Rules
 - Media Queries Conditions
+
+(<a href="#top">back to top</a>)
