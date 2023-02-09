@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  max-width: 65vw;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.week,
+.notes {
+  display: flex;
+  align-items: center;
+}
+
+.week {
+  flex-wrap: wrap;
+}
+
+.notes {
+  flex-direction: column;
+  flex-basis: 30%;
+  align-items: stretch;
+}
+
+span {
+  border: 1px solid black;
+  padding: 1rem 0;
+  flex-grow: 1;
+}
+
+span:nth-child(10),
+span:nth-child(11) {
+  flex-basis: 50%;
+}
+
+span:nth-child(1),
+span:nth-child(7) {
+  flex-basis: 100%;
+}
