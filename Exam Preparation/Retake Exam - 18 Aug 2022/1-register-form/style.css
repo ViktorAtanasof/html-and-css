@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Mulish, sans-serif;
+}
+
+body {
+    background-image: url('images/background.png');
+}
+
+.container {
+    padding: 10px;
+    margin: 190px 555px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+img {
+    width: 800px;
+    border-radius: 30px;
+    box-shadow: 13px 10px 20px rgba(75, 74, 74, 0.75);
+}
+
+form {
+    padding: 40px;
+    gap: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+form .inline {
+    width: 180px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.double {
+    display: flex;
+}
+
+label {
+    color: gray;
+}
+
+.group > label {
+    margin-bottom: 10px;
+}
+
+
+.first {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 30px;
+    width: 40%;
+    margin: 10px auto;
+}
+
+input:not(:last-child) {
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.check {
+    color: gray;
+}
