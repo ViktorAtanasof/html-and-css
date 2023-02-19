@@ -1,0 +1,107 @@
+@import url("https://use.fontawesome.com/releases/v6.3.0/css/all.css");
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 460px;
+    box-shadow: 10px 8px 26px 0px rgba(0, 0, 0, 0.35);
+}
+
+.left-side {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 60%)), url('./image/cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px 0px 0px 5px;
+    padding: 30px;
+}
+
+
+.left-side h1, p {
+    margin: 0;
+    font-weight: 100;
+}
+
+.left-side h1 {
+    font-size: 36px;
+}
+
+.left-side p {
+    font-size: 22px;
+}
+
+.left-side .wrap-text {
+    text-align: center;
+}
+
+.left-side .softuni {
+    align-self: start;
+    font-weight: bold;
+}
+
+.right-side {
+    border-radius: 0px 5px 5px 0px;
+    background-color: white;
+    width: 100%;
+    padding: 35px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.right-side form {
+    color: lightgray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side form label {
+    margin-bottom: 10px;
+}
+
+.right-side form input {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: unset;
+    border-bottom: 1px solid lightgray;
+}
+
+.right-side #repass {
+    margin-bottom: 50px;
+}
+
+.right-side .btn {
+    border: unset;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: white;
+}
+
+.right-side a {
+    color: gray;
+    font-size: 14px;
+    margin-left: 10px;
+}
