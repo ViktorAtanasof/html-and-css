@@ -1,0 +1,185 @@
+@import url("https://use.fontawesome.com/releases/v6.3.0/css/all.css");
+
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin: 20px 100px;
+  color: gray;
+}
+
+header .logo {
+    background: linear-gradient(180deg, rgba(193,161,59,1) 15%, rgba(148,107,27,1) 90%);
+    padding: 25px 40px;
+    position: absolute;
+    top: 13px;
+    left: 166px;
+    z-index: 1;
+}
+
+.nav-icons,
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.nav-icons ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header a {
+  color: gray;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+nav ul {
+  margin-bottom: 0;
+  list-style: none;
+}
+
+header .info {
+    margin-top: 30px;
+}
+
+.img-wrapper {
+  background-image: url(./image/slider.jpg);
+  background-position: center;
+  height: 600px;
+}
+
+.shuttle {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    background-color: #00000080;
+    color: white;
+    bottom: 130px;
+    padding: 30px;
+    left: 200px;
+    width: 30%;
+}
+
+.container button {
+    color: #f7a620;
+}
+
+.container p {
+    width: 77%;
+}
+
+.budapest-card {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    100deg,
+    rgba(148, 107, 27, 1) 10%,
+    rgba(193, 161, 59, 1) 70%
+  );
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.card-text ul {
+    width: 66%;
+}
+
+.card-text ul li i {
+    margin-right: 5px;
+}
+
+.card-text ul li {
+    margin-bottom: 15px;
+}
+
+.btn {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.benefits .images-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.benefits .images-wrapper div {
+    flex: 0 0 15%;
+}
+
+.benefits .images-wrapper div img {
+    border: 3px solid gray;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.benefits h1 {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.newsletter {
+    color: white;
+    background-color: #b08d1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter .sub {
+    margin-left: 30px;
+}
+
+.newsletter .btn-wrapper {
+    margin-right: 30px;
+}
+
+footer {
+    text-align: center;
+}
