@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-image: url(./images/landing-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+
+nav ul {
+  gap: 30px;
+}
+
+.nav-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.main-btn {
+  background-color: #370511;
+  color: white;
+  padding: 5px 25px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.head-container {
+  width: 50%;
+  margin: 150px 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.head-container .big-par {
+  font-size: 24px;
+  margin: 0;
+}
+
+.head-container pre {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 24px 0;
+    height: 50px;
+}
+
+
+main, footer {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding: 80px 0;
+}
+
+.places {
+    width: 50%;
+    text-align: center;
+}
+
+.places > h2, p {
+  margin: 0;
+}
+
+.places h2 {
+  font-size: 28px;
+}
+
+.places > p {
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    flex: 0 0 30%;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    border-radius: 6px 6px 0 0;
+}
+
+h4 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.card p {
+    text-align: left;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.secondary-btn {
+    border: 1px solid #370511;
+    border-radius: 30px;
+    color: black;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.wrapper {
+    padding: 50px 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hrefs-wrapper {
+    display: flex;
+    font-size: 14px;
+}
+
+.hrefs-wrapper .left {
+    flex: 0 0 50%;
+}
+
+.hrefs-wrapper .right {
+    flex: 0 0 50%;
+}
+
+footer i {
+    font-size: 16px;
+    margin-right: 18px;
+}
